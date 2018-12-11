@@ -1,0 +1,28 @@
+{
+  "name": "ws-cv-ua/ws-eth-payments",
+  "description": "Ethereum payments. Receiving and Sending",
+  "license": "MIT",
+  "homepage": "https://github.com/ws-cv-ua/ws-eth-payments",
+  "stability": "stable",
+  "authors": [
+    {
+      "name": "Web-Studio.cv.ua",
+      "email": "info@web-studio.cv.ua",
+      "homepage": "http://Web-Studio.cv.ua"
+    }
+  ],
+  "require": {
+    "php": ">=5.6",
+    "yiisoft/yii2": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "wscvua\\ws_eth_payments\\": ""
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.0.1-dev"
+    }
+  }
+}
